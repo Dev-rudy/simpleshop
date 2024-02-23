@@ -1,0 +1,399 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #107275 #400D56;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #400D56;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #C21DBC;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #91C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color:purple;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: blue;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #F315E4;
+}
+
+html,body{height:100vh;width:100vw;overflow:hidden;}
+body{;color:lightblue;background-image:linear-gradient(to bottom right,blue,lightblue,fuchsia);background-size:cover;background-repeat:norepeat;}
+	*{font-size:1rem;box-sizing:border-box;transition-duration:.2s;word-wrap:break-word;}
+.logo-container{width:12vh;height:5vw;border:1px solid  transparent;position:relative;top:0px;left:0px; overflow:hidden;}
+.logo{height:100%;width:auto;}
+.nav-options{display:inline-block;color:gold;float:left;display:inline;position:absolute;top:0px;left:4vw;}
+.nav-items{display:inline;margin:3vw;font-weight:bold;cursor:pointer;font-size:1rem;}
+#offers{display:none;text-shadow:1px 1px 10px black;color:fuchsia;}
+.main-page{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;
+           margin-top:5vh;border-radius:1vw;background:transparent;display:none;transition-duration:1s;
+		   }
+
+.left-page{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;
+          margin-top:5vh;border-radius:1vw;background:transparent;display:none;opacity:0;transition-duration:1s;
+		  }
+
+.right-page{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;margin-top:5vh;
+           border-radius:1vw;background:transparent;display:none;opacity:0;transition-duration:1s;}
+     /*-----------------------------------------------------------------------------------------*/		   
+.about{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;
+           margin-top:5vh;border-radius:1vw;background-image:linear-gradient(to bottom,fuchsia,black,transparent);display:none;transition-duration:1s;position:relative;}
+.contnt-box{border:1px  solid  white;position:absolute;border-radius:1vw;}
+         #contnt1{width:20%;height:100%;background-image:url("OIG3.jpg");background-position:center;background-size:cover;}
+         #contnt01{width:20%;height:100%;background-image:url("OIG2.jpg");background-position:center;background-size:cover;}		 
+          #contnt2{width:80%;height:100%;position:absolute;right:0px;overflow:hidden;}
+		  #contnt02{width:80%;height:100%;position:absolute;right:0px;overflow:hidden;}
+		  .text-01{text-align:center;color:white;font-weight:bold;font-size:1rem}
+		  .head-01{text-align:center;color:White;font-weight:bold;font-size:1.5rem;text-shadow:1px 1px 5px  red;position:relative;background:black;}
+		 
+.freebies{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;
+           margin-top:5vh;border-radius:1vw;background-image:url("https://th.bing.com/th/id/OIP.1683365Q4d4FoAvOyNVS4gHaEK?rs=1&pid=ImgDetMain");
+		   display:none;transition-duration:1s;position:relative;overflow:hidden;background-size:cover;background-position:centert;}
+		   
+		   .freebies-box{border:1px solid transparent;width:100%;height:83.5%;position:relative;display:grid;
+		   grid-template-columns:repeat(2,1fr);
+		   gap:2vw;border-radius:1vw;background-image:linear-gradient(to bottom,transparent,transparent,green);}
+		   .free-box-items{width:50%;height:80%;border:1px solid white;margin:auto;border-radius:2vw;box-shadow:1px 1px 10px black;background-image:linear-gradient(to top,red ,black,black)}
+		   #free1{background-image:url("https://s3-eu-west-1.amazonaws.com/tpd/logos/6106a7e4f66385001d52966b/0x0.png");background-size:cover;background-position:center;}
+		   #free2{background-image:url("https://play-lh.googleusercontent.com/Bk1AEP1HYR8cajqmeOi5dKcdAuOGkxTBQ7PmSUjnwQRikGmyP65oA02UZcgQ4yRqqTo");background-size:cover;background-position:center;}
+         /* #free3{background-image:url("https://img.123moviestv.net/xxrz/250x400/251/a5/0c/a50cf3acf8e031df1030ff2e828206bb/a50cf3acf8e031df1030ff2e828206bb.jpg");background-size:cover;background-position:center;}
+          #free4{background-image:url("https://img.123moviestv.net/xxrz/250x400/251/69/46/694693eb5eaca6d1e4fac5480f4d4ed1/694693eb5eaca6d1e4fac5480f4d4ed1.jpg");background-size:cover;background-position:center;}
+           */
+		   
+.partners{border:1px  solid  transparent;color:black;width:70%;height:70vh;margin:15%;
+           margin-top:5vh;border-radius:1vw;background-image:linear-gradient(to bottom,green,black,transparent);display:none;transition-duration:1s;position:relative;}
+		   
+
+     /*-----------------------------------------------------------------------------------------*/		
+.recent-next-page{border:1px  solid transparent;width:70%;height:5vh;position:absolute;top:88vh;margin-left:14%;border-radius:2vw;display:none;}
+#page-nav{border:1px  solid transparent;width:5vw;height:100%;display:inline-block;color:black;text-align:center;cursor:pointer;}
+.nav-right{position:absolute;right:38%;border-radius:0 2vw 2vw 0;background-image:linear-gradient(to bottom,black,fuchsia,black);}
+.nav-center{position:absolute;left:46.5%;background-image:linear-gradient(to bottom,black,fuchsia,black);}
+.nav-left{border-radius:2vw 0 0 2vw;margin-left:38%;background-image:linear-gradient(to bottom,black,fuchsia,black);}
+/*-------------------------------------------------------------- (X) button  in each page (START) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.pop-up-sale{border:1px  solid  transparent;color:black;width:70%;height:73vh;margin-left:14%;margin-top:12vh;border-radius:1vw;background:transparent;position:absolute;top:0px;overflow:hidden;}
+.pop-up-one-exit{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;}
+.pop-up-one-exit1{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit2{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit3{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit4{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit5{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit6{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit7{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit8{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit9{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit10{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit11{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit12{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit13{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit14{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+.pop-up-one-exit15{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;z-index:3;}
+/*-------------------------------------------------------------- (X) button  in each page (END) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.pop-up-container{border:1px  solid  transparent;background-image:linear-gradient(to bottom,transparent,transparent,fuchsia);width:100%;height:100%;
+                   display:grid;grid-template-columns:repeat(3,1fr);gap:2vw;box-shadow:1px 10px 5px 5px black;}
+.pop-up-items{border:1px  double gold;margin:3vw;cursor:pointer;border-radius:2vw;box-shadow:1px 1px 5px 5px  black;background-position:center;background-size:cover;background-repeat:norepeat;}
+.pop-up-items:hover{box-shadow:1px 1px 5px 5px  white;}
+#pop-item-one{background-image:url("freecash.png");}  /*--PS  INSERT IMAGE ---------*/
+#pop-item-two{background-image:url("recruitday.png");}/*--PS  INSERT IMAGE ---------*/
+#pop-item-three{background-image:url("alison.png");background-size:cover;background-position:center;background-repeat:norepeat;}/*--PS  INSERT IMAGE ---------*/
+
+
+.product-containers{border:1px solid transparent;height:33.5%;border-radius:1vw;overflow:hidden;display:grid;
+                   grid-template-columns:repeat(10,1fr);gap:1vw;overflow-x:auto;}
+				   
+.product-items{border:1px solid transparent ;height:95%;width:10vw;margin-top:2%;background-image:linear-gradient(to bottom,fuchsia,orange,yellow);position:relative;}
+.price{font-size:rem;font-weight:bold;color:red;background:gold;text-align:center;position:relative;bottom:0px;position:absolute;bottom:1px;right:3.5vw;border-radius:3px;}
+.prod-img{height:100%;width:100%;color:white;text-align:center;}
+.recruitday{background-image:linear-gradient(to bottom right,gray,black,red);height:80vh;width:96vw;margin:auto;z-index:7;display:none;position:relative;bottom:1vh;border-radius:3vw;box-shadow:1px 1px 20px 20px black;}
+.recruitday-box1{width:100%;height:100%;border:1px  solid red;display:grid;grid-template-rows:repeat(3,1fr);gap:1vh;border-radius:3vw;overflow:hidden;overflow-y:scroll;}
+.recruitday-items{border:1px  solid  red;width:80vw;margin-left:5vw;height:35vh;margin-top:5vh;position:relative;border-radius:3vw;overflow:hidden;background-image:linear-gradient(to bottom right,gray,black,red);}
+.job-img{width:20vw;height:100%;border-radius:3vw;cursor:pointer;}
+.job-title{display:inline;color:white;font-size:1.5rem;position:absolute;top:1%;left:22vw;background:black;border-radius:1vw;}
+.job-title2{display:inline;color:black;font-size:1rem;position:absolute;top:16%;left:22vw;background:lightblue;border-radius:1vw;}
+.job-desc{display:inline-block;color:white;position:absolute;top:26%;left:22vw;}
+.salary{font-weight:bold;color:gold;}
+.validity{font-weight:bold;color:gold;}
+.copy{font-weight:bold;color:gold;background:black;}
+.freees{background-image:linear-gradient(to bottom right,gray,black,silver);height:80vh;width:96vw;
+margin:auto;z-index:7;display:none;position:relative;bottom:1vh;border-radius:3vw;
+box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
+
+.instructions{width:100%;height:100%;overflow-y:auto;position:relative;}
+.free-head{text-align:center;color:white;font-size:1.5rem;}
+.earningapp{display:inline;width:20vw;height:35vh;border-radius:3vw;margin-left:25%;}
+.earningapp2{display:inline;width:20vw;height:35vh;border-radius:3vw;}
+.free-desc{text-align:center;color:white;font-size:1rem;}
+.site-sample{margin-left:10%;}
+
+.partner-list-head{text-align:center;color:yellow;text-decoration:underline;}
+.partner-list{color:white;font-weight:bold;text-shadow:1px 1px 10px yellow;}
+
+.blog-container{background-image:linear-gradient(to top right,yellow,orange,fuchsia);height:85vh;width:96vw;
+margin:auto;z-index:7;display:none;position:relative;bottom:1vh;border-radius:3vw;
+box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
+.blog-box{width:100%;height:100%;overflow:hidden;position:relative;display:grid;grid-template-columns:1fr 1fr;}
+.blog-box-one{border:1px solid yellow;width:78vw;border-radius:3vw;overflow-y:auto;}
+.blog-box-two{border:1px solid yellow;width:18vw;border-radius:3vw;overflow-y:auto;display:grid;grid-template-rows:repeat(10,1fr);gap:2vw;}
+
+.external-blog{border:1px solid black;height:25vh;width:13vw;margin:2vw;position:relative;}
+.blogs-head{text-align:center;color:white;background:black;margin-top:75%;}
+.blogOne{width:40vw;height:40vh;margin-left:20vw;border-radius:2vw;margin-top:1vh;}
+.blogTwo{width:40vw;height:40vh;margin-left:20vw;border-radius:2vw;display:none;margin-top:1vh;}
+.blogThree{width:40vw;height:40vh;margin-left:20vw;border-radius:2vw;display:none;margin-top:1vh;}
+.blogFour{width:40vw;height:40vh;margin-left:20vw;border-radius:2vw;display:none;margin-top:1vh;}
+.blogFive{width:40vw;height:40vh;margin-left:20vw;border-radius:2vw;display:none;margin-top:1vh;}
+.blog-contents{border:1px solid transparent;width:70vw;height:220vh;margin:auto;margin-top:1vh;border-radius:1vw;}
+
+.button-box{border:1px  solid transparent;width:10vw;height:2vh;display:grid;grid-template-columns:repeat(5,1fr);margin-left:35vw;margin-top:2vh;}
+.circles{background-image:linear-gradient(to bottom right,black,silver,black);border:1px solid black;border-radius:5vw;width:1vw;height:2vh;}
+.blog-head{text-align:center;color:red;font-size:1.5rem;background:black;border-radius:1vw;
+box-shadow:1px 1px 10px 10px white;}
+.blog-desc{text-align:center;color:black;}
+.high-light{text-align:center;color:red;font-weight:bold;background:black;}
+.cut-off{text-align:center;color:red;font-size:1.5rem;font-weight:bold;}
+.blog-img{margin:auto;}
+.blog-img2{margin:auto;width:70vw;}
+#bOne{}
+#bTwo{display:none;}
+#bThree{display:none;}
+#bFour{display:none;}
+#bFive{display:none;}
+
+#extB1{background-image:url("https://getcash.ph/wp-content/uploads/2023/01/Real-Money-Earning-Games.jpg");background-size:cover;background-position:center;}
+#extB2{background-image:url("https://usercontent.one/wp/www.insidr.ai/wp-content/uploads/2023/01/insidr-ai_artificial-intelligence_fallback-image-1024x574.png?media=1682324295");background-size:cover;background-position:center;}
+#extB3{background-image:url("https://media.bitdegree.org/storage/media/images/2018/10/How-to-Make-Money-Online.jpg");background-size:cover;background-position:center;}
+#extB4{background-image:url("https://filipiknow.net/wp-content/uploads/2022/02/earn-money-online-philippines-1024x576.png");background-size:cover;background-position:center;}
+#extB5{background-image:url("https://digimarklondon.com/wp-content/uploads/2019/12/getresponse.jpg");background-size:cover;background-position:center;}
+#extB6{background-image:url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2015%2F02%2F300-free-things.png&signature=e59b5a27f473022e2bf671d4544fc688");background-size:cover;background-position:center;}
+#extB7{background-image:url("https://images.fastcompany.net/image/upload/w_937,ar_16:9,c_fill,g_auto,f_auto,q_auto,fl_lossy/wp-cms/uploads/2023/02/p-1-90856183-30-ai-tools-you-can-try-for-free.webp");background-size:cover;background-position:center;}
+#extB8{background-image:url("https://www.strategybeam.com/wp-content/uploads/2019/01/Naminum-1.jpg");background-size:cover;background-position:center;}
+#extB9{background-image:url("https://swaarm.com/wp-content/uploads/2022/06/nordwood-themes-cNXqmO0Z24U-unsplash.jpg");background-size:cover;background-position:center;}
+#extB10{background-image:url("https://smartblogger.com/wp-content/uploads/2222/02/paid-advertising-900.png");background-size:cover;background-position:center;}
+
+.more{background-image:linear-gradient(to top right,white,lightblue,blue);height:85vh;width:96vw;
+margin:auto;z-index:7;display:none;position:relative;bottom:1vh;border-radius:3vw;
+box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
+
+.more-item-container{width:100%;height:100%;display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden;}
+.more-items{border:1px  solid transparent;margin:2vw;width:20vw;height:30vh;border-radius:2vw;box-shadow:1px 1px 5px 5px white;cursor:pointer;}
+.more-offer-head{margin-top:25.5vh;text-align:center;color:black;font-size:1.5rem;BACKGROUND:white;border-radius:0 0 1vw 1vw;}
+
+#more1{background-image:url("OIG33.jfif");background-size:cover;background-position:center;}
+#more2{background-image:url("OGI34.jfif");background-size:cover;background-position:center;}
+#more3{background-image:url("OGI35.jfif");background-size:cover;background-position:center;}
+#more4{background-image:url("OGI36.jfif");background-size:cover;background-position:center;}
+#more5{background-image:url("OGI37.jfif");background-size:cover;background-position:center;}
+#more6{background-image:url("OGI38.jfif");background-size:cover;background-position:center;}
+#more7{background-image:url("OGI39.jfif");background-size:cover;background-position:center;}
+#more8{background-image:url("OGI40.jfif");background-size:cover;background-position:center;}
+
+.more-content{background-image:linear-gradient(to top right,white,lightblue,blue);height:85vh;width:96vw;
+margin:auto;z-index:7;display:none;position:relative;bottom:3vh;border-radius:3vw;
+box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
+.mc-head{color:black;text-align:center;font-size:1.5rem;text-shadow:1px 1px 10px red;}
+.oBiz-box{width:100%;height:100%;/*display:grid;grid-template-columns:repeat(5,1fr);*/}
+/*.oBiz-items{border:1px  solid black;margin:1vw;border-radius:1vw;height:18vh;box-shadow:1px 1px 10px 10px black;}
+
+#Biz1{background-image:url("https://store.portalxl.com/images/thumbs/0000662_print-on-demand.jpeg");background-size:cover;background-position:center;}
+#Biz2{background-image:url("https://okcredit-blog-images-prod.storage.googleapis.com/2021/02/dropshipping1.jpg");background-size:cover;background-position:center;}
+#Biz3{background-image:url("https://www.findabusinessthat.com/blog/wp-content/uploads/2017/06/local-seo-expert.jpg");background-size:cover;background-position:center;}
+#Biz4{background-image:url("https://eduardklein.com/wp-content/uploads/create-sell-online-courses-1300x650.png");background-size:cover;background-position:center;}
+#Biz5{background-image:url("https://th.bing.com/th/id/OIP.n2EXjtuSEYTWmwLbj7eKFQHaE8?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz6{background-image:url("https://th.bing.com/th/id/OIP.zyHIVXrhRM1QOFDvuBJQtgHaE8?w=600&h=400&rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz7{background-image:url("https://i.ytimg.com/vi/cQB65LZ_eNw/maxresdefault.jpg");background-size:cover;background-position:center;}
+#Biz8{background-image:url("https://th.bing.com/th/id/OIP.GU-fBG4r_GExJXP27OvtgQHaHa?w=500&h=500&rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz9{background-image:url("https://th.bing.com/th/id/OIP.D4vHwn5gK3WYLkff2HUqEwHaH0?w=1500&h=1583&rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz10{background-image:url("https://th.bing.com/th/id/OIP.OAkxN1uTtrhO1Wq05TgY8wHaEK?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz11{background-image:url("https://agenttraining.info/wp-content/uploads/2019/08/image-va.jpg");background-size:cover;background-position:center;}
+#Biz12{background-image:url("https://th.bing.com/th/id/OIP.ZB45mQ5RYQ5VBQ0gftJHzAHaE8?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz13{background-image:url("https://th.bing.com/th/id/OIP.BBsFXgiMWx1Nk-oyMlmNAAHaE8?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz14{background-image:url("https://th.bing.com/th/id/OIP.xLHy7d5TOkmwPfmIqebNQwHaEK?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz15{background-image:url("https://i.pinimg.com/originals/7c/1a/ae/7c1aae108a8e7e7bb00d64220108a04f.jpg");background-size:cover;background-position:center;}
+*/
+
+.oBiz2-box{width:100%;height:100%;/*display:grid;grid-template-columns:repeat(4,1fr);*/}
+/*.oBiz-items2{border:1px  solid black;margin:1vw;border-radius:1vw;height:30vh;box-shadow:1px 1px 10px 10px black;}
+#Biz16{background-image:url("https://img.freepik.com/free-vector/illustration-social-media-concept_53876-36934.jpg?w=740&t=st=1672201482~exp=1672202082~hmac=85d8dfeeb3516424f902a031a0cc46aaf3a14f41fd7660ab345792545d7cca66");background-size:cover;background-position:center;}
+#Biz17{background-image:url("https://th.bing.com/th/id/OIP.KzEP4t3mAee6iTBjk5JcEgHaHa?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz18{background-image:url("https://th.bing.com/th/id/OIP.2yI2cy6DJTCRm51f1sG0CgHaFP?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz19{background-image:url("https://th.bing.com/th/id/OIP.iOD1JnOD9bwzaNurxBRmewHaEw?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz20{background-image:url("https://th.bing.com/th/id/OIP.Q210uRfWLQLx4EdzUK0n2QHaF7?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz21{background-image:url("https://smallbiztrends.com/wp-content/uploads/2016/11/shutterstock_415935832.jpg");background-size:cover;background-position:center;}
+#Biz22{background-image:url("https://www.practina.com/wp-content/uploads/2022/09/Rules-for-a-Successful-MedSpa-Business.jpg");background-size:cover;background-position:center;}
+#Biz23{background-image:url("https://th.bing.com/th/id/OIP.JiQ8jKA3KwveWa4wMztEDQHaFS?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+*/
+
+.oBiz3-box{width:100%;height:100%;/*display:grid;grid-template-columns:repeat(5,1fr);*/}
+/*.oBiz-items3{border:1px  solid black;margin:1vw;border-radius:1vw;height:30vh;box-shadow:1px 1px 10px 10px black;}
+#Biz24{background-image:url("https://varfms.com/wp-content/uploads/2021/05/Technical-support-300x200.jpg");background-size:cover;background-position:center;}
+#Biz25{background-image:url("https://i.pinimg.com/originals/09/a0/e3/09a0e3520d246863cb2fb1b548b3a31e.png");background-size:cover;background-position:center;}
+#Biz26{background-image:url("https://3.imimg.com/data3/HR/CY/MY-10082211/data-analytics-service-1000x1000.jpg");background-size:cover;background-position:center;}
+#Biz27{background-image:url("https://th.bing.com/th/id/OIP.85S_qYuuTNKJDkqI-dwWGgHaE1?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz28{background-image:url("https://th.bing.com/th/id/OIP.MuF43o5HlHWhq5BoJZzkBwHaEK?w=2000&h=1125&rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz29{background-image:url("https://inprogrammer.com/wp-content/uploads/2021/11/If-Else-820-x-720-px-920-x-720-px.png");background-size:cover;background-position:center;}
+#Biz30{background-image:url("https://images.yourstory.com/cs/1/b3c9ea44-ab5e-11e8-8691-f70342131e20/Top6%20Software%20Development%20Functions%20Crucial%20to%20your%20Business%20in%2020191542795654826.jpg?fm=png&auto=format");background-size:cover;background-position:center;}
+#Biz31{background-image:url("https://th.bing.com/th/id/R.7b2cde090d39961e43a492ade79913ee?rik=to1A5arVtdS3bQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-xZNXH8tNn5E%2fT-uu9B66zaI%2fAAAAAAAAAA8%2fxDKYBcCUUNo%2fs1600%2fPicture5.png&ehk=fmWfe4dJts5dOdw8lZQqDAxZyo%2bBPG%2fckr4h1INt8RQ%3d&risl=&pid=ImgRaw&r=0");background-size:cover;background-position:center;}
+#Biz32{background-image:url("https://triforce-inc.com/wp-content/uploads/2023/07/AI-Services-Solutions.png");background-size:cover;background-position:center;}
+#Biz33{background-image:url("https://aspen.eccouncil.org/Content/Images/Courses/ECSA-portfolio.jpg");background-size:cover;background-position:center;}
+
+#Biz34{background-image:url("https://www.digitalgabbar.com/wp-content/uploads/2020/04/freecash.png");background-size:cover;background-position:center;}
+#Biz35{background-image:url("https://stoppingscams.com/wp-content/uploads/2016/08/SwagBucks-logo-300x200.png");background-size:cover;background-position:center;}
+#Biz36{background-image:url("https://th.bing.com/th/id/OIP.2SXmT-FWDKn3Jvz69EjjDgHaD5?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz37{background-image:url("https://s3-eu-west-1.amazonaws.com/tpd/logos/5c930a347a437100018d1fd0/0x0.png");background-size:cover;background-position:center;}
+#Biz38{background-image:url("https://business.inquirer.net/files/2020/09/20200926-GCash-1536x864.png");background-size:cover;background-position:center;}
+#Biz39{background-image:url("https://investedwallet.com/wp-content/uploads/2020/11/Mistplay-App.png");background-size:cover;background-position:center;}
+#Biz40{background-image:url("https://i.ytimg.com/vi/hWO3XaF7mnc/hqdefault.jpg");background-size:cover;background-position:center;}
+#Biz41{background-image:url("https://fitzvillafuerte.com/wp-content/uploads/2022/01/lazada-vs-shopee.png");background-size:cover;background-position:center;}
+#Biz42{background-image:url("https://moneytips.debt.com/wp-content/uploads/2019/06/surveyjunkie-hero-1140x599.jpg");background-size:cover;background-position:center;}
+#Biz43{background-image:url("https://assets.pandaily.com/uploads/2022/11/tm-1536x799.jpeg");background-size:cover;background-position:center;}
+
+#Biz44{background-image:url("https://th.bing.com/th/id/OIP.ZIQ6lU3reWHvhZZa1VnhPQHaE7?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz45{background-image:url("https://th.bing.com/th/id/OIP.i9Pnh29aBc66j9r2j0ctjgHaEc?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz46{background-image:url("https://th.bing.com/th/id/OIP.ttnEiKFjWsjdg40WpJVmQAHaE8?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz47{background-image:url("https://th.bing.com/th/id/OIP.w63KQKvlIvVePmWQ4aPhmQAAAA?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz48{background-image:url("https://th.bing.com/th/id/OIP.WcQG4rOaeGlOWUB1KnxEdAHaEw?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz49{background-image:url("https://www.themilliondollarmama.com/wp-content/uploads/2021/06/Teach-English-Online-768x768.jpg");background-size:cover;background-position:center;}
+#Biz50{background-image:url("https://5.imimg.com/data5/HD/JJ/MY-49921869/social-media-influencer-1000x1000.jpg");background-size:cover;background-position:center;}
+#Biz51{background-image:url("https://i2.wp.com/aceofbusiness.com/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-12-at-12.51.55.jpeg?resize=300%2C300&ssl=1");background-size:cover;background-position:center;}
+#Biz52{background-image:url("https://www.mackenziecorp.com/wp-content/uploads/2015/07/Online_Survey.jpg");background-size:cover;background-position:center;}
+#Biz53{background-image:url("https://www.findabusinessthat.com/blog/wp-content/uploads/2020/11/9460cf0455d8eca439fe2896b787449a.jpg");background-size:cover;background-position:center;}
+
+#Biz54{background-image:url("https://www.thesmbguide.com/images/appy-pie-1024x512-20200124.png");background-size:cover;background-position:center;}
+#Biz55{background-image:url("https://th.bing.com/th/id/OIP.D1Pfq2TAKUjWzinuEW_y1AHaEK?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz56{background-image:url("https://i.ytimg.com/vi/CA9ZRx3GNrg/maxresdefault.jpg");background-size:cover;background-position:center;}
+#Biz57{background-image:url("https://startupxplore.com/uploads/ff808081714e5af201714f43f53900f9-large.png");background-size:cover;background-position:center;}
+#Biz58{background-image:url("https://down.imgspng.com/download/0720/wordpress_PNG47.png");background-size:cover;background-position:center;}
+#Biz59{background-image:url("https://logosmarcas.net/wp-content/uploads/2020/11/Wix-Emblema.png");background-size:cover;background-position:center;}
+#Biz60{background-image:url("https://th.bing.com/th/id/OIP.mFWaUFCgfNlvotmW9ZJDQAHaEO?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz61{background-image:url("https://www.shipbob.com/wp-content/uploads/2019/12/squarespace-logo-tertiary-white.jpg");background-size:cover;background-position:center;}
+#Biz62{background-image:url("https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_edeb2a91cafe9f255754187e54cdaf94/webador.png");background-size:cover;background-position:center;}
+#Biz63{background-image:url("https://fitsmallbusiness.com/wp-content/uploads/2021/05/Reviewicon_Square_Online.jpg");background-size:cover;background-position:center;}
+
+#Biz64{background-image:url("https://th.bing.com/th/id/OIP.wtMYC1KFNPy_9L1x8rtGMAHaHa?rs=1&pid=ImgDetMain");background-size:cover;background-position:center;}
+#Biz65{background-image:url("https://bitcoinexchangeguide.com/wp-content/uploads/2017/09/bitdegree.jpg");background-size:cover;background-position:center;}
+#Biz66{background-image:url("https://theleaders-online.com/wp-content/uploads/2019/11/lazada-resized-890x700_c.jpg");background-size:cover;background-position:center;}
+#Biz67{background-image:url("");background-size:cover;background-position:center;}
+#Biz68{background-image:url("");background-size:cover;background-position:center;}
+#Biz69{background-image:url("");background-size:cover;background-position:center;}
+#Biz70{background-image:url("");background-size:cover;background-position:center;}
+#Biz71{background-image:url("");background-size:cover;background-position:center;}
+#Biz72{background-image:url("");background-size:cover;background-position:center;}
+#Biz73{background-image:url("");background-size:cover;background-position:center;}
+
+#Biz74{background-image:url("");background-size:cover;background-position:center;}
+#Biz75{background-image:url("");background-size:cover;background-position:center;}
+#Biz76{background-image:url("");background-size:cover;background-position:center;}
+#Biz77{background-image:url("");background-size:cover;background-position:center;}
+#Biz78{background-image:url("");background-size:cover;background-position:center;}
+#Biz79{background-image:url("");background-size:cover;background-position:center;}
+#Biz80{background-image:url("");background-size:cover;background-position:center;}
+#Biz81{background-image:url("");background-size:cover;background-position:center;}
+#Biz82{background-image:url("");background-size:cover;background-position:center;}
+#Biz83{background-image:url("");background-size:cover;background-position:center;}
+*/
+
+
+/*-------------------------ORIENTATION------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media(orientation:portrait){
+	html{overflow:hidden;}
+	
+	.recruitday{width:90%;height:85vh;margin:auto;top:1vh;}
+	*::-webkit-scrollbar {display:none;}
+	 .logo-container{height:6vh;width:10vw;}
+     .pop-up-sale{width:100vw;height:30vh;margin-top:30vh;right:0vw;} 
+.pop-up-container{gap:1vw;}	 
+	 .main-page{display:none;}
+	 .pop-up-one-exit{width:5vw;height:3vh}
+	 .pop-up-one-exit1{width:5vw;height:3vh}
+	 .pop-up-one-exit2{width:5vw;height:3vh}
+	 .pop-up-one-exit3{width:5vw;height:3vh}
+	 .pop-up-one-exit4{width:5vw;height:3vh;}
+	 .pop-up-one-exit5{width:5vw;height:3vh;}
+	 .pop-up-one-exit6{width:5vw;height:3vh;}
+	 .pop-up-one-exit7{width:5vw;height:3vh;}
+	 .pop-up-one-exit8{width:5vw;height:3vh;}
+	 .pop-up-one-exit9{width:5vw;height:3vh;}
+	 .pop-up-one-exit10{width:5vw;height:3vh;}
+	 .pop-up-one-exit11{width:5vw;height:3vh;}
+	 .pop-up-one-exit12{width:5vw;height:3vh;}
+	 .pop-up-one-exit13{width:5vw;height:3vh;}
+	 .pop-up-one-exit14{width:5vw;height:3vh;}
+	 .pop-up-one-exit15{width:5vw;height:3vh;}
+	 .nav-center{left:46.3%;}
+	 .nav-items{font-size:.5rem;margin:1.5vw;}
+	 .recent-next-page{top:78vh;}
+	 .main-page{width:90%;margin:0px;margin-right:.2vw;}
+	 .left-page{width:90%;margin:0px;margin-right:.2vw;}
+	 .right-page{width:90%;margin:0px;margin-right:.2vw;}
+	 .product-items{width:23vw;margin-left:1vw;margin-top:3%;}
+	 .prod-img{height:auto;}
+	 .about{width:90%;margin:5%;height:50vh;}
+	 .freebies{width:90%;margin:5%;height:50vh;}
+	 .freebies-box{height:73.5%;overflow-x:scroll;}
+	 .free-box-items{width:30vw;margin-left:8vw;}
+	 .partners{width:90%;margin:5%;height:50vh;}
+	 .head-01{font-size:.6rem;}
+	 .text-01{font-size:.5rem;}
+	.partner-items{font-size:.6rem;}
+	  #contnt1{width:40%;}
+	  #contnt2{width:60%;}
+	   #contnt01{width:30%;}
+	    #contnt02{width:70%;}
+		.job-img{width:50vw;}
+		.job-title{font-size:.7rem;left:50vw;}
+		.job-title2{font-size:.6rem;left:50vw;}
+		.job-desc{font-size:.5rem;left:50vw;}
+		.salary{font-size:.5rem;left:50vw;}
+		.position{font-size:.5rem;left:50vw;}
+		.joblevel{font-size:.5rem;left:50vw;}
+		.jobtype{font-size:.5rem;left:50vw;}
+		.validity{font-size:.5rem;left:50vw;}
+		.copy{font-size:.5rem;left:50vw;}
+		.movies{height:95vh;}
+		.blog-container{height:95vh;grid-template-rows: 1fr;margin:2vw;bottom:6vh;}
+		.blog-box{grid-template-columns:1fr 1fr;overflow:hidden;}
+		.blog-box-one{width:70vw;height:100%;}
+		.blog-box-two{width:30vw;height:100%;}
+		
+		.blogOne{width:55vw;margin-left:10%;}
+		.blogTwo{width:55vw;margin-left:10%;}
+		.blogThree{width:55vw;margin-left:10%;}
+		.blogFour{width:55vw;margin-left:10%;}
+		.blogFive{width:55vw;margin-left:10%;}
+		.button-box{margin-left:15%;margin-top:1vh;}
+		.circles{width:8vw;margin:1vw;}
+		.blog-contents{width:99%;}
+		.external-blog{width:23vw;margin-right:1vw;}
+		.blogs-head{font-size:.5rem;margin-top:23vh;}
+		.blog-img{width:65vw;}
+		.more{height:48vh;margin:1vw;margin-top:20vh;}
+		.more-item-container{height:47vh;}
+		.more-items{height:20vh;}
+		.more-offer-head{font-size:.5rem;margin-top:18vh;}
+}
+
+@media screen and(max-height:570px){ .text-01{font-size:.5rem;}
+                                     .head-01{font-size:.6rem;}
+									} /* ----------------------------- TEST MEDIA QUERY  DOESNT WORK FOR  A WHILE ---------------------------*/
