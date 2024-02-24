@@ -82,11 +82,11 @@ body{;color:lightblue;background-image:linear-gradient(to bottom right,blue,ligh
 		   
 
      /*-----------------------------------------------------------------------------------------*/		
-.recent-next-page{border:1px  solid transparent;width:70%;height:5vh;position:absolute;top:88vh;margin-left:14%;border-radius:2vw;display:none;}
-#page-nav{border:1px  solid transparent;width:5vw;height:100%;display:inline-block;color:black;text-align:center;cursor:pointer;}
+.recent-next-page{border:1px  solid transparent;width:70%;height:3.5vh;position:absolute;top:88vh;margin-left:14%;border-radius:2vw;display:none;}
+#page-nav{border:1px  solid transparent;width:5vw;height:100%;display:inline-block;text-align:center;cursor:pointer;color:white;font-weight:bold;}
 .nav-right{position:absolute;right:38%;border-radius:0 2vw 2vw 0;background-image:linear-gradient(to bottom,black,fuchsia,black);}
-.nav-center{position:absolute;left:46.5%;background-image:linear-gradient(to bottom,black,fuchsia,black);}
-.nav-left{border-radius:2vw 0 0 2vw;margin-left:38%;background-image:linear-gradient(to bottom,black,fuchsia,black);}
+.nav-center{position:absolute;left:46.5%;background-image:linear-gradient(to bottom,black,fuchsia,black);color:white;font-weight:bold;}
+.nav-left{border-radius:2vw 0 0 2vw;margin-left:38%;background-image:linear-gradient(to bottom,black,fuchsia,black);color:white;font-weight:bold;}
 /*-------------------------------------------------------------- (X) button  in each page (START) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .pop-up-sale{border:1px  solid  transparent;color:black;width:70%;height:73vh;margin-left:14%;margin-top:12vh;border-radius:1vw;background:transparent;position:absolute;top:0px;overflow:hidden;}
 .pop-up-one-exit{border:1px solid transparent;background-image:url("458594.png");background-size:cover;background-position:center;position:absolute;top:0px;right:0px;width:2vw;height:4vh;border-radius:5vw;text-align:center;color:black;cursor:pointer;}
@@ -120,7 +120,7 @@ body{;color:lightblue;background-image:linear-gradient(to bottom right,blue,ligh
 .product-containers{border:1px solid transparent;height:33.5%;border-radius:1vw;overflow:hidden;display:grid;
                    grid-template-columns:repeat(10,1fr);gap:1vw;overflow-x:auto;}
 				   
-.product-items{border:1px solid transparent ;height:95%;width:10vw;margin-top:2%;background-image:linear-gradient(to bottom,fuchsia,orange,yellow);position:relative;}
+.product-items{border:1px solid transparent ;height:95%;width:10vw;margin-top:2%;background-image:linear-gradient(to bottom,fuchsia,orange,yellow);position:relative;border-radius:1vw;}
 .price{font-size:rem;font-weight:bold;color:red;background:gold;text-align:center;position:relative;bottom:0px;position:absolute;bottom:1px;right:3.5vw;border-radius:3px;}
 .prod-img{height:100%;width:100%;color:white;text-align:center;}
 .recruitday{background-image:linear-gradient(to bottom right,gray,black,red);height:80vh;width:96vw;margin:auto;z-index:7;display:none;position:relative;bottom:1vh;border-radius:3vw;box-shadow:1px 1px 20px 20px black;}
@@ -141,6 +141,7 @@ box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 .free-head{text-align:center;color:white;font-size:1.5rem;}
 .earningapp{display:inline;width:20vw;height:35vh;border-radius:3vw;margin-left:25%;}
 .earningapp2{display:inline;width:20vw;height:35vh;border-radius:3vw;}
+
 .free-desc{text-align:center;color:white;font-size:1rem;}
 .site-sample{margin-left:10%;}
 
@@ -210,7 +211,7 @@ box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 margin:auto;z-index:7;display:none;position:relative;bottom:3vh;border-radius:3vw;
 box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 .mc-head{color:black;text-align:center;font-size:1.5rem;text-shadow:1px 1px 10px red;}
-.oBiz-box{width:100%;height:100%;/*display:grid;grid-template-columns:repeat(5,1fr);*/}
+.oBiz-box{width:100%;height:100%;/*display:grid;grid-template-columns:repeat(5,1fr);*/overflow-x:auto;}
 /*.oBiz-items{border:1px  solid black;margin:1vw;border-radius:1vw;height:18vh;box-shadow:1px 1px 10px 10px black;}
 
 #Biz1{background-image:url("https://store.portalxl.com/images/thumbs/0000662_print-on-demand.jpeg");background-size:cover;background-position:center;}
@@ -343,12 +344,13 @@ box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 	 .pop-up-one-exit15{width:5vw;height:3vh;}
 	 .nav-center{left:46.3%;}
 	 .nav-items{font-size:.5rem;margin:1.5vw;}
+	 .navi{display:none;}
 	 .recent-next-page{top:78vh;}
 	 .main-page{width:90%;margin:0px;margin-right:.2vw;}
 	 .left-page{width:90%;margin:0px;margin-right:.2vw;}
 	 .right-page{width:90%;margin:0px;margin-right:.2vw;}
-	 .product-items{width:23vw;margin-left:1vw;margin-top:3%;}
-	 .prod-img{height:auto;}
+	 .product-items{width:23vw;margin-left:1vw;margin-top:3%;border-radius:2vw;}
+	 .prod-img{height:auto;border-radius:2vw;}
 	 .about{width:90%;margin:5%;height:50vh;}
 	 .freebies{width:90%;margin:5%;height:50vh;}
 	 .freebies-box{height:73.5%;overflow-x:scroll;}
@@ -377,11 +379,11 @@ box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 		.blog-box-one{width:70vw;height:100%;}
 		.blog-box-two{width:30vw;height:100%;}
 		
-		.blogOne{width:55vw;margin-left:10%;}
-		.blogTwo{width:55vw;margin-left:10%;}
-		.blogThree{width:55vw;margin-left:10%;}
-		.blogFour{width:55vw;margin-left:10%;}
-		.blogFive{width:55vw;margin-left:10%;}
+		.blogOne{width:55vw;height:25vh;margin-left:10%;}
+		.blogTwo{width:55vw;height:25vh;margin-left:10%;}
+		.blogThree{width:55vw;height:25vh;margin-left:10%;}
+		.blogFour{width:55vw;height:25vh;margin-left:10%;}
+		.blogFive{width:55vw;height:25vh;margin-left:10%;}
 		.button-box{margin-left:15%;margin-top:1vh;}
 		.circles{width:8vw;margin:1vw;}
 		.blog-contents{width:99%;}
@@ -392,6 +394,10 @@ box-shadow:1px 1px 20px 20px black;overflow:hiddden;position:relative;}
 		.more-item-container{height:47vh;}
 		.more-items{height:20vh;}
 		.more-offer-head{font-size:.5rem;margin-top:18vh;}
+		
+		.earningapp{width:40vw;height:30vh;margin-left:5%;}
+		.earningapp2{width:40vw;height:30vh;}
+		.site-sample{width:65vw;margin-left:20%;}
 }
 
 @media screen and(max-height:570px){ .text-01{font-size:.5rem;}
